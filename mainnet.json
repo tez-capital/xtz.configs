@@ -1,0 +1,31 @@
+{
+	"CONFIG_FILE":{
+		"p2p":{
+			"bootstrap-peers":[
+				"boot.tzbeta.net",
+				"boot.mainnet.oxheadhosted.com"
+			],
+			"listen-addr":"[::]:9732",
+			"limits":{
+				"connection-timeout":10,
+				"min-connections":20,
+				"expected-connections":40,
+				"max-connections":50,
+				"max_known_points":[
+					320,
+					240
+				],
+				"max_known_peer_ids":[
+					320,
+					240
+				]
+			}
+		},
+		"shell":{
+			"chain_validator":{
+				"synchronisation_threshold":6
+			}
+		}
+	},
+	"NODE_TYPE":"baker"
+}
