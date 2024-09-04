@@ -2,8 +2,7 @@
 	"CONFIG_FILE":{
 		"p2p":{
 			"bootstrap-peers":[
-				"boot.tzbeta.net",
-				"boot.mainnet.oxheadhosted.com"
+				"boot.tzbeta.net"
 			],
 			"listen-addr":"[::]:9732",
 			"limits":{
