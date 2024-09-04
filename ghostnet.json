@@ -2,10 +2,14 @@
 	"CONFIG_FILE":{
 		"rpc": { "listen-addrs": [ "127.0.0.1:8732" ] },
 		"p2p":
-			{ "bootstrap-peers":
-		  		[ "ghostnet.teztnets.com", "ghostnet.tzinit.org",
-				"ghostnet.tzboot.net", "ghostnet.boot.ecadinfra.com",
-				"ghostnet.stakenow.de:9733" ], "listen-addr": "[::]:9732" },
-  		"shell": { "history_mode": "rolling" }, "network": "ghostnet" },
+			{ 
+				"bootstrap-peers":
+		  			[ "ghostnet.teztnets.com", "ghostnet.tzinit.org",
+					"ghostnet.tzboot.net", "ghostnet.boot.ecadinfra.com",
+					"ghostnet.stakenow.de:9733" ],
+				"listen-addr": "[::]:9732" 
+			},
+  		"shell": { "history_mode": "rolling" }, 
+		"network": "ghostnet" },
 	"NODE_TYPE":"baker"
 }
