@@ -1,0 +1,42 @@
+{
+  "CONFIG_FILE": {
+    "rpc": {
+      "listen-addrs": ["127.0.0.1:8732"]
+    },
+    "p2p": {
+      "bootstrap-peers": [
+        "seoulnet.teztnets.com",
+        "seoulnet.tzinit.org"
+      ],
+      "listen-addr": "[::]:9732"
+    },
+    "shell": {
+      "history_mode": "rolling"
+    },
+    "network": {
+      "genesis": {
+        "timestamp": "2025-07-11T08:00:00Z",
+        "block": "BLQGRyv3v92oE9iM4BGWwWpy6NxcDFPb7NLsNeuRVr3TYidU7MC",
+        "protocol": "Ps9mPmXaRzmzk35gbAYNCAw6UXdE2qoABTHbN2oEEc1qM7CwT9P"
+      },
+      "genesis_parameters": {
+        "values": {
+          "genesis_pubkey": "edpktosVHk2f3Yrz9Jb6rMrk6uVy4sTxVhP2iyF39AdgzvsTWgbaLy"
+        }
+      },
+      "chain_name": "TEZOS_SEOULNET_2025-07-11T08:00:00Z",
+      "sandboxed_chain_name": "SANDBOXED_TEZOS",
+      "default_bootstrap_peers": [
+        "seoulnet.teztnets.com",
+        "seoulnet.tzinit.org"
+      ],
+      "dal_config": {
+        "bootstrap_peers": [
+          "dal.seoulnet.teztnets.com:11732",
+          "seoulnet.bootstrap.dal.nomadic-labs.com:11732"
+        ]
+      }
+    }
+  },
+  "NODE_TYPE": "baker"
+}
